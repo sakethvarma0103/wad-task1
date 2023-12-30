@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login Form</title>
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: azure;
+}
+.container {
+  width: 300px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.field h2 {
+  text-align: center;
+}
+
+.field {
+  margin-bottom: 15px;
+}
+
+.field label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.field input {
+  width: 90%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color:skyblue;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+button :hover {
+  background-color: skyblue;
+}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <form class="loginform">
+      <center><h2 style="color: green;">Login</h2></center>
+      <div class="field">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username">
+      </div>
+      <div class="field">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password">
+      </div>
+    </form>
+    <a href="dst.html" target="target"><button type="submit"><b style="color:black; font-size: 200;">Login</b></button></a>
+  </div>
+</body>
+</html>
